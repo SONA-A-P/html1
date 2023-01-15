@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebebf3;
+  }
+  .nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f5f5;
+    margin-right: 20px;
+  }
+  
+  .nav-items a {
+    text-decoration: none;
+    color: #000;
+    padding: 35px 20px;
+  }
+  .logo {
+    font-size: 25px;
+    font-family: 'Sriracha', cursive;
+    color: rgb(18, 3, 3);
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  .about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    border-top: 2px solid #eeeeee;
+  }
+  
+   .about-me-text h2 {
+
+text-align: center;  
+  justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .about-me-text p {
+   
+    font-size: 25px;
+    color: #585858;
+    margin: 10px 0;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 10px;
+    bottom: 5px;
+    right: 10px; 
+    width: 95%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    }
